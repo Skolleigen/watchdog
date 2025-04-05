@@ -4,7 +4,8 @@
 Monitors system integrity, VPN/Tor visibility, open ports, suspicious processes, and malware exposure — all in a single command.
 
 ---
-![Uploading Watchdog.png…]()
+![Watchdog](https://github.com/user-attachments/assets/69c8474b-76cd-4fe9-9124-cef2c9eb5786)
+
 
 ## 🔍 What It Does
 
