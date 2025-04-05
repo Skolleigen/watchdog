@@ -1,7 +1,5 @@
 #!/bin/bash
 
-cat /home/wolfie/Projects/watchdog/assets/banner.txt
-
 VERSION="2.0"
 
 # ────────────────────────────
