@@ -15,6 +15,7 @@ elif [[ "$1" == "--help" ]]; then
     exit 0
 fi
 
+# 📝 Create log only if needed
 LOGFILE=~/security-log-$(date +%F_%H-%M).txt
 
 # HEADER
