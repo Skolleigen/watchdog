@@ -26,6 +26,20 @@ Logs are saved automatically with timestamped filenames like:
 ---
 
 ## ⚙️ Installation
+🔌 Quick install (curl)
+
+curl -s https://raw.githubusercontent.com/Skolleigen/watchdog/main/install.sh | bash
+
+This sets up the watchdog command globally on your system.
+Run it anywhere using:
+
+watchdog
+
+Or for help/version:
+
+watchdog --help
+
+🛠 Manual install
 
 Clone the repo:
 
@@ -64,6 +78,10 @@ sudo apt install ufw clamav curl lsof procps whois libnotify-bin
     Modular structure in modules/
 
     GUI or TUI interface (stretch goal)
+
+Install all dependencies (Debian/Ubuntu):
+
+sudo apt install ufw clamav curl lsof procps whois libnotify-bin
 
 
 📜 License
