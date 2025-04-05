@@ -4,6 +4,7 @@
 Monitors system integrity, VPN/Tor visibility, open ports, suspicious processes, and malware exposure — all in a single command.
 
 ---
+![Uploading Watchdog.png…]()
 
 ## 🔍 What It Does
 
