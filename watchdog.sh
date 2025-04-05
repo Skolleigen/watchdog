@@ -22,10 +22,12 @@ fi
 LOGFILE=~/security-log-$(date +%F_%H-%M).txt
 
 # HEADER
-echo "🔥 Watchdog v$VERSION – System Incursion Scanner" | tee "$LOGFILE"
+cat ~/Projects/watchdog/assets/banner.txt
+echo "🐾 Watchdog v2.0 – Lightweight Security Layer" | tee "$LOGFILE"
 echo "Run at: $(date)" | tee -a "$LOGFILE"
 echo "User: $(whoami) | Host: $(hostname)" | tee -a "$LOGFILE"
 echo "---------------------------------------------" | tee -a "$LOGFILE"
+
 
 # 🔒 FIREWALL STATUS
 check_firewall() {
