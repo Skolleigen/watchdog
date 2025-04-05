@@ -1,3 +1,4 @@
 logs/
 *.log
 security-log-*.txt
+*.swp
