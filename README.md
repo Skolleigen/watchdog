@@ -28,7 +28,7 @@ Logs are saved automatically with timestamped filenames like:
 ## ⚙️ Installation
 🔌 Quick install (curl)
 
-curl -s https://raw.githubusercontent.com/Skolleigen/watchdog/main/install.sh | bash
+    curl -s https://raw.githubusercontent.com/Skolleigen/watchdog/main/install.sh | bash
 
 This sets up the watchdog command globally on your system.
 Run it anywhere using:
@@ -37,20 +37,20 @@ watchdog
 
 Or for help/version:
 
-watchdog --help
+    watchdog --help
 
 🛠 Manual install
 
 Clone the repo:
 
 
-git clone https://github.com/Skolleigen/watchdog.git
-cd watchdog
-chmod +x watchdog.sh
+    git clone https://github.com/Skolleigen/watchdog.git
+    cd watchdog
+    chmod +x watchdog.sh
 
 Then run it:
 
-./watchdog.sh
+    ./watchdog.sh
 
 🗂 Logs will be saved in your home directory unless redirected.
 🧪 Requirements
@@ -81,7 +81,7 @@ sudo apt install ufw clamav curl lsof procps whois libnotify-bin
 
 Install all dependencies (Debian/Ubuntu):
 
-sudo apt install ufw clamav curl lsof procps whois libnotify-bin
+    sudo apt install ufw clamav curl lsof procps whois libnotify-bin
 
 
 📜 License
