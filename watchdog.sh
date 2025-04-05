@@ -1,4 +1,19 @@
 #!/bin/bash
+VERSION="2.0"
+
+# ────────────────────────────
+# CLI Flags
+# ────────────────────────────
+if [[ "$1" == "--version" ]]; then
+    echo "🐾 Watchdog v$VERSION – Lightweight Security Layer"
+    exit 0
+elif [[ "$1" == "--help" ]]; then
+    echo -e "🐾 Watchdog v$VERSION – Lightweight Security Layer"
+    echo -e "Usage:\n  watchdog              Run full scan"
+    echo -e "  watchdog --version    Show version"
+    echo -e "  watchdog --help       Show this help message"
+    exit 0
+fi
 
 LOGFILE=~/security-log-$(date +%F_%H-%M).txt
 
