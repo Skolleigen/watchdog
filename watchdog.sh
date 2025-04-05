@@ -18,7 +18,7 @@ fi
 LOGFILE=~/security-log-$(date +%F_%H-%M).txt
 
 # HEADER
-echo "🔥 Watchdog v2.0 – System Incursion Scanner" | tee "$LOGFILE"
+echo "🔥 Watchdog v$VERSION – System Incursion Scanner" | tee "$LOGFILE"
 echo "Run at: $(date)" | tee -a "$LOGFILE"
 echo "User: $(whoami) | Host: $(hostname)" | tee -a "$LOGFILE"
 echo "---------------------------------------------" | tee -a "$LOGFILE"
